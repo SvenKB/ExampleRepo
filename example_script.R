@@ -2,4 +2,8 @@
 
 df <- load("some_data.Rdata")
 
-fit <- lm(some ~ analyses,data=df)
+fit <- lm(some ~ new_analyses,data=df)
+
+summary(fit)
+
+plot(fit)
